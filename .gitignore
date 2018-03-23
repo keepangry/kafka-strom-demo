@@ -1,0 +1,5 @@
+.settings/
+example-kafka/target/
+example-world/target/
+*.classpath
+*.project
