@@ -22,6 +22,7 @@ public class SplitBolt implements IRichBolt {
 	   @Override
 	   public void execute(Tuple input) {
 	      String sentence = input.getString(0);
+	      System.out.println("---------->句子：" + sentence) ;
 	      String[] words = sentence.split(" ");
 
 	      for(String word: words) {
